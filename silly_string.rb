@@ -27,7 +27,7 @@ letter_count = big_word # Put a . after big_word and use a String method.
 
 puts "There are #{letter_count} in #{big_word}"
 
-# Challenge 5: Add "wow" and "mom" to big_word
+# Challenge 5: Add "wow" and "mom" to big_word + "wow" + "big_word"
 
 bigger_word = big_word # Use String concatenation to add "wow" and "mom" to big_word
 
@@ -37,7 +37,7 @@ puts "There are now #{new_letter_count} in #{bigger_word}"
 
 # Challenge 6: Capitalize this sentence properly
 
-proper_sentence = "i really like programming." # Put a . after the string to capitalize it properly.
+proper_sentence = "i really like programming.".capitalize # Put a . after the string to capitalize it properly.
 
 puts proper_sentence
 
